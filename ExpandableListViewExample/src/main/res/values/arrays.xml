@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="BasicCommands">
+        <item>Command1</item>
+        <item>Command2</item>
+        <item>Command3</item>
+        <item>Command4</item>
+        <item>Command5</item>
+    </string-array>
+    <string-array name="SSHCommands">
+        <item>Command1</item>
+        <item>Command2</item>
+        <item>Command3</item>
+        <item>Command4</item>
+        <item>Command5</item>
+    </string-array>
+</resources>

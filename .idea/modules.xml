@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ExpandableListViewExample/ExpandableListViewExample.iml" filepath="$PROJECT_DIR$/ExpandableListViewExample/ExpandableListViewExample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ExpandableListViewExampleProject.iml" filepath="$PROJECT_DIR$/ExpandableListViewExampleProject.iml" />
+    </modules>
+  </component>
+</project>
+
