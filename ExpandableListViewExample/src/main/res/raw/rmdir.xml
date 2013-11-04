@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rmdir>
+    <Description>delete directory</Description>
+    <Examples>
+        <item command="rmdir dir1" details="delete directory dir1"/>
+    </Examples>
+</rmdir>

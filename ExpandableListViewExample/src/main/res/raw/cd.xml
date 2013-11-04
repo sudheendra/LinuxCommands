@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cd>
+    <Description>change working directory</Description>
+    <Examples>
+        <item command="cd .." details="change to parent directory"/>
+        <item command="cd ~/Public" details="change to /home/<USERNAME>/Public directory"/>
+        <item command="cd -" details="change to previous directory"/>
+    </Examples>
+</cd>

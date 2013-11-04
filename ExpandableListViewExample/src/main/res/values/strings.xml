@@ -4,5 +4,6 @@
     <string name="app_name">ExpandableListViewExample</string>
     <string name="action_settings">Settings</string>
     <string name="hello_world">Hello world!</string>
+    <string name="title_activity_command_details">MainActivity</string>
 
 </resources>

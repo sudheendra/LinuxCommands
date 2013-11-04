@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ps>
+    <Description>list all running processes</Description>
+    <Examples>
+        <item command="ps -U <username>" details="Prints all running processes under user <username>"/>
+    </Examples>
+</ps>

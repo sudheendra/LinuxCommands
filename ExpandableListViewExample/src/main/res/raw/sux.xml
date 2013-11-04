@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sux>
+    <Description>switch to user (can use graphical apps) </Description>
+    <Examples>
+        <item command="sux – dap " details="Switch to user 'dap'"/>
+    </Examples>
+</sux>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tar>
+    <Description>Create an archive or decompress an archive</Description>
+    <Examples>
+        <item command="tar xzvf file.tar.gz" details="Decompress the file.tar.gz archive"/>
+        <item command="tar cjvf file.tar.gz file1 file2" details="Create 'file.tar.gz', a zipped version of 'file1' and 'file2'"/>
+    </Examples>
+</tar>

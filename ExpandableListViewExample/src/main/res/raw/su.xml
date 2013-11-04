@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<su>
+    <Description>switch to user</Description>
+    <Examples>
+        <item command="su <username>" details="switch to user <username>"/>
+    </Examples>
+</su>

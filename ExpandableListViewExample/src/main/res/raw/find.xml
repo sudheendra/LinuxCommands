@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<find>
+    <Description>finds files in given directory tree</Description>
+    <Examples>
+        <item command="find dir1 -name foo" details="find/search for file named foo in the directory dir1"/>
+    </Examples>
+</find>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<finger>
+    <Description>find about a person</Description>
+    <Examples>
+        <item command="finger dap" details=""/>
+    </Examples>
+</finger>

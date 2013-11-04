@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<file>
+    <Description>print the type of file</Description>
+    <Examples>
+        <item command="file example.txt" details="Prints the file type of example.txt"/>
+    </Examples>
+</file>

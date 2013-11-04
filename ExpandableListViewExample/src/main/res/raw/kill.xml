@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kill>
+    <Description>Kills a process</Description>
+    <Examples>
+        <item command="kill <pid>" details="Kill a process with process id <pid>"/>
+        <item command="kill -9 <pid>" details="For stubborn processes, REALLY kill them."/>
+    </Examples>
+</kill>

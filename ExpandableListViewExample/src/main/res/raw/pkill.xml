@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pkill>
+    <Description>kills a process by name </Description>
+    <Examples>
+        <item command="pkill <name>" details="Kill all processes with <name> in their name"/>
+        <item command="pkill -9 <name>" details="For REALLY stubborn processes"/>
+    </Examples>
+</pkill>

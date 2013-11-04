@@ -74,20 +74,58 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="MainActivity.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ExpandableListViewExample/src/main/java/com/example/expandablelistviewexample/MainActivity.java">
+      <file leaf-file-name="arrays.xml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ExpandableListViewExample/src/main/res/values/arrays.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="25" selection-start="1231" selection-end="1231" vertical-scroll-proportion="-0.026344676" vertical-offset="415" max-vertical-offset="1326">
+            <state line="50" column="29" selection-start="1011" selection-end="1011" vertical-scroll-proportion="0.84632766" vertical-offset="101" max-vertical-offset="986">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="arrays.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ExpandableListViewExample/src/main/res/values/arrays.xml">
+      <file leaf-file-name="umask.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ExpandableListViewExample/src/main/res/raw/umask.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="35" selection-start="285" selection-end="296" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="374">
+            <state line="6" column="8" selection-start="211" selection-end="211" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="204">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="chgrp.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ExpandableListViewExample/src/main/res/raw/chgrp.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="241" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="204">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="chmod.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ExpandableListViewExample/src/main/res/raw/chmod.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="8" selection-start="542" selection-end="542" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="255">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cd.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ExpandableListViewExample/src/main/res/raw/cd.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="69" selection-start="0" selection-end="367" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="238">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cat.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ExpandableListViewExample/src/main/res/raw/cat.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="227" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="204">
+              <folding>
+                <marker date="1383543835924" expanded="true" signature="112:219" placeholder="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -460,19 +498,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/ExpandableListViewExample/src/main/res/layout/listrow_group.xml" />
-        <option value="$PROJECT_DIR$/ExpandableListViewExample/src/main/res/layout/listrow_details.xml" />
-        <option value="$PROJECT_DIR$/ExpandableListViewExample/src/main/java/com/example/expandablelistviewexample/Group.java" />
-        <option value="$PROJECT_DIR$/ExpandableListViewExample/src/main/java/com/example/expandablelistviewexample/MyExpandableListAdapter.java" />
-        <option value="$PROJECT_DIR$/ExpandableListViewExample/src/main/java/com/example/expandablelistviewexample/ExpandListChild.java" />
-        <option value="$PROJECT_DIR$/ExpandableListViewExample/src/main/java/com/example/expandablelistviewexample/ExpandListGroup.java" />
-        <option value="$PROJECT_DIR$/ExpandableListViewExample/src/main/java/com/example/expandablelistviewexample/ExpandListAdapter.java" />
-        <option value="$PROJECT_DIR$/ExpandableListViewExample/src/main/res/layout/expandlist_child_item.xml" />
-        <option value="$PROJECT_DIR$/ExpandableListViewExample/src/main/res/layout/activity_main.xml" />
-        <option value="$PROJECT_DIR$/ExpandableListViewExample/src/main/res/layout/expandlist_group_item.xml" />
+        <option value="$PROJECT_DIR$/ExpandableListViewExample/src/main/res/raw/grep.xml" />
+        <option value="$PROJECT_DIR$/ExpandableListViewExample/src/main/res/raw/kill.xml" />
+        <option value="$PROJECT_DIR$/ExpandableListViewExample/src/main/res/raw/less.xml" />
+        <option value="$PROJECT_DIR$/ExpandableListViewExample/src/main/res/raw/pwd.xml" />
+        <option value="$PROJECT_DIR$/ExpandableListViewExample/src/main/res/raw/pkill.xml" />
+        <option value="$PROJECT_DIR$/ExpandableListViewExample/src/main/res/raw/ps.xml" />
+        <option value="$PROJECT_DIR$/ExpandableListViewExample/src/main/res/raw/mv.xml" />
+        <option value="$PROJECT_DIR$/ExpandableListViewExample/src/main/res/raw/mkdir.xml" />
+        <option value="$PROJECT_DIR$/ExpandableListViewExample/src/main/res/raw/rm.xml" />
+        <option value="$PROJECT_DIR$/ExpandableListViewExample/src/main/res/raw/rmdir.xml" />
+        <option value="$PROJECT_DIR$/ExpandableListViewExample/src/main/res/raw/tar.xml" />
+        <option value="$PROJECT_DIR$/ExpandableListViewExample/src/main/res/raw/snoop.xml" />
+        <option value="$PROJECT_DIR$/ExpandableListViewExample/src/main/res/raw/su.xml" />
         <option value="$PROJECT_DIR$/ExpandableListViewExample/src/main/res/values/arrays.xml" />
-        <option value="$PROJECT_DIR$/ExpandableListViewExample/ExpandableListViewExample.iml" />
-        <option value="$PROJECT_DIR$/ExpandableListViewExample/src/main/java/com/example/expandablelistviewexample/MainActivity.java" />
+        <option value="$PROJECT_DIR$/ExpandableListViewExample/src/main/res/raw/sux.xml" />
+        <option value="$PROJECT_DIR$/ExpandableListViewExample/src/main/res/raw/umask.xml" />
       </list>
     </option>
   </component>
@@ -508,7 +549,7 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -615,7 +656,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="values" />
+              <option name="myItemId" value="raw" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -651,7 +692,7 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -669,8 +710,7 @@
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
-    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="SH11YRX07289" />
-    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_AVD" value="AVD-Nexus4" />
+    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="emulator-5554" />
     <property name="FullScreen" value="false" />
   </component>
   <component name="RunManager" selected="Android Application.ExpandableListViewExample">
@@ -681,6 +721,26 @@
       <setting name="params" value="" />
       <setting name="workDir" value="" />
       <setting name="debug" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
       <method />
     </configuration>
     <configuration default="true" type="MavenRunConfiguration" factoryName="Maven">
@@ -705,26 +765,6 @@
       </MavenSettings>
       <method />
     </configuration>
-    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
-      <module name="" />
-      <option name="TESTING_TYPE" value="0" />
-      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
-      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
-      <option name="PREFERRED_AVD" value="" />
-      <option name="USE_COMMAND_LINE" value="true" />
-      <option name="COMMAND_LINE" value="" />
-      <option name="WIPE_USER_DATA" value="false" />
-      <option name="DISABLE_BOOT_ANIMATION" value="false" />
-      <option name="NETWORK_SPEED" value="full" />
-      <option name="NETWORK_LATENCY" value="none" />
-      <option name="CLEAR_LOGCAT" value="false" />
-      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
-      <method />
-    </configuration>
     <configuration default="true" type="GriffonRunConfigurationType" factoryName="Griffon">
       <module name="" />
       <setting name="vmparams" value="" />
@@ -739,6 +779,19 @@
       <option name="SHMEM_ADDRESS" value="javadebug" />
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -766,19 +819,6 @@
       <envs />
       <properties />
       <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -887,19 +927,19 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5133405" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5126235" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18729989" sideWeight="0.4862788" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32870865" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32821077" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32959402" sideWeight="0.4862788" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32959402" sideWeight="0.4862788" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -917,122 +957,120 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ExpandableListViewExample/src/main/res/layout/activity_main.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
+    <entry file="file://$PROJECT_DIR$/ExpandableListViewExample/src/main/res/raw/pkill.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="44" selection-start="626" selection-end="626" vertical-scroll-proportion="0.0" vertical-offset="221" max-vertical-offset="408">
+        <state line="4" column="64" selection-start="182" selection-end="182" vertical-scroll-proportion="0.07701019" vertical-offset="0" max-vertical-offset="883">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ExpandableListViewExample/src/main/java/com/example/expandablelistviewexample/ExpandListChild.java">
+    <entry file="file://$PROJECT_DIR$/ExpandableListViewExample/src/main/res/raw/ps.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="0" selection-start="363" selection-end="363" vertical-scroll-proportion="0.0" vertical-offset="340" max-vertical-offset="527">
+        <state line="4" column="100" selection-start="217" selection-end="217" vertical-scroll-proportion="0.07701019" vertical-offset="0" max-vertical-offset="883">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ExpandableListViewExample/src/main/java/com/example/expandablelistviewexample/ExpandListGroup.java">
+    <entry file="file://$PROJECT_DIR$/ExpandableListViewExample/src/main/res/raw/mv.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="28" selection-start="315" selection-end="315" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="527">
+        <state line="5" column="81" selection-start="266" selection-end="266" vertical-scroll-proportion="0.09626274" vertical-offset="0" max-vertical-offset="883">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ExpandableListViewExample/src/main/java/com/example/expandablelistviewexample/ExpandListAdapter.java">
+    <entry file="file://$PROJECT_DIR$/ExpandableListViewExample/src/main/res/raw/mkdir.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="118" selection-start="1733" selection-end="1733" vertical-scroll-proportion="0.0" vertical-offset="799" max-vertical-offset="1853">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ExpandableListViewExample/src/main/res/layout/expandlist_child_item.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="37" selection-start="460" selection-end="460" vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="459" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ExpandableListViewExample/src/main/res/layout/expandlist_group_item.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="30" selection-start="520" selection-end="520" vertical-scroll-proportion="0.0" vertical-offset="238" max-vertical-offset="425" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ExpandableListViewExample/src/main/res/layout/expandlist_group_item.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="57" selection-start="441" selection-end="457" vertical-scroll-proportion="-8.16" vertical-offset="0" max-vertical-offset="425" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ExpandableListViewExample/src/main/res/layout/activity_main.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="24" selection-start="674" selection-end="692" vertical-scroll-proportion="-10.2" vertical-offset="0" max-vertical-offset="408">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ExpandableListViewExample/src/main/res/layout/expandlist_child_item.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="9" selection-start="549" selection-end="549" vertical-scroll-proportion="0.4714038" vertical-offset="0" max-vertical-offset="577" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ExpandableListViewExample/ExpandableListViewExample.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="80" selection-start="1337" selection-end="1337" vertical-scroll-proportion="0.37321624" vertical-offset="0" max-vertical-offset="1411" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ExpandableListViewExample/src/main/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="603">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ExpandableListViewExample/src/main/java/com/example/expandablelistviewexample/ExpandListGroup.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="37" selection-start="205" selection-end="220" vertical-scroll-proportion="0.18660812" vertical-offset="0" max-vertical-offset="911">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ExpandableListViewExample/src/main/java/com/example/expandablelistviewexample/ExpandListChild.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="23" selection-start="176" selection-end="176" vertical-scroll-proportion="0.13062568" vertical-offset="0" max-vertical-offset="911">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ExpandableListViewExample/src/main/java/com/example/expandablelistviewexample/ExpandListAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="58" column="25" selection-start="2122" selection-end="2122" vertical-scroll-proportion="0.0" vertical-offset="816" max-vertical-offset="1734">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ExpandableListViewExample/src/main/res/values/arrays.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="35" selection-start="285" selection-end="296" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="374">
+        <state line="4" column="65" selection-start="177" selection-end="177" vertical-scroll-proportion="0.07701019" vertical-offset="0" max-vertical-offset="883">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ExpandableListViewExample/src/main/java/com/example/expandablelistviewexample/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="25" selection-start="1231" selection-end="1231" vertical-scroll-proportion="-0.026344676" vertical-offset="415" max-vertical-offset="1326">
+        <state line="24" column="83" selection-start="766" selection-end="766" vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="1751">
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#1299#1748#0" expanded="false" />
+            <element signature="e#1741#1742#0" expanded="false" />
+            <element signature="e#1878#1895#0" expanded="false" />
+            <element signature="e#1968#1985#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ExpandableListViewExample/src/main/java/com/example/expandablelistviewexample/CommandDetails.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="68" selection-start="1135" selection-end="1135" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="680">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ExpandableListViewExample/src/main/res/raw/rmdir.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="7" selection-start="202" selection-end="202" vertical-scroll-proportion="0.11551529" vertical-offset="0" max-vertical-offset="883">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ExpandableListViewExample/src/main/res/raw/rm.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="67" selection-start="229" selection-end="229" vertical-scroll-proportion="0.09626274" vertical-offset="0" max-vertical-offset="883">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ExpandableListViewExample/src/main/res/raw/tar.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="6" selection-start="379" selection-end="379" vertical-scroll-proportion="0.13476783" vertical-offset="0" max-vertical-offset="883">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ExpandableListViewExample/src/main/res/raw/su.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="5" selection-start="202" selection-end="202" vertical-scroll-proportion="0.11551529" vertical-offset="0" max-vertical-offset="883">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ExpandableListViewExample/src/main/res/raw/sux.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="6" selection-start="222" selection-end="222" vertical-scroll-proportion="0.11551529" vertical-offset="0" max-vertical-offset="883">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ExpandableListViewExample/src/main/res/raw/chmod.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="8" selection-start="542" selection-end="542" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ExpandableListViewExample/src/main/res/raw/chgrp.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="241" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="204">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ExpandableListViewExample/src/main/res/raw/umask.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="8" selection-start="211" selection-end="211" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="204">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ExpandableListViewExample/src/main/java/com/example/expandablelistviewexample/ExpandListAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="58" column="25" selection-start="2122" selection-end="2122" vertical-scroll-proportion="0.0" vertical-offset="986" max-vertical-offset="1853">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ExpandableListViewExample/src/main/res/values/arrays.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="50" column="29" selection-start="1011" selection-end="1011" vertical-scroll-proportion="0.84632766" vertical-offset="101" max-vertical-offset="986">
           <folding />
         </state>
       </provider>

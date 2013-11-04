@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<grep>
+    <Description>Search within a file</Description>
+    <Examples>
+        <item command="grep CONTENT file1 file2" details="Search for 'CONTENT' in 'file1' and 'file2'"/>
+        <item command="grep -i CONTENT file file2" details="Case-Insenstive search for 'CONTENT in 'file1' file2'"/>
+        <item command="grep -r CONTENT dir1" details="Search all files of dir1 (recursively)"/>
+    </Examples>
+</grep>

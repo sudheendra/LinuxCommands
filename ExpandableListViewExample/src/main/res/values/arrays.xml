@@ -1,11 +1,47 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string-array name="BasicCommands">
-        <item>Command1</item>
-        <item>Command2</item>
-        <item>Command3</item>
-        <item>Command4</item>
-        <item>Command5</item>
+
+        <item>anyone</item>
+
+        <item>cat</item>
+        <item>cd</item>
+        <item>chgrp</item>
+        <item>chmod</item>
+        <item>cp</item>
+
+        <item>file</item>
+        <item>find</item>
+        <item>finger</item>
+        <item>floor</item>
+
+        <item>grep</item>
+
+        <item>kill</item>
+
+        <item>ls</item>
+        <item>less</item>
+
+        <item>pwd</item>
+        <item>pkill</item>
+        <item>ps</item>
+
+        <item>mv</item>
+        <item>mkdir</item>
+
+        <item>rm</item>
+        <item>rmdir</item>
+
+        <item>snoop</item>
+        <item>su</item>
+        <item>sux</item>
+
+        <item>tar</item>
+
+        <item>unmask</item>
+
+        <item>zwrite</item>
+
     </string-array>
     <string-array name="SSHCommands">
         <item>Command1</item>
