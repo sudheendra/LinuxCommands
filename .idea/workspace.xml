@@ -10,6 +10,9 @@
       <config />
     </shared>
   </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_CUSTOM_FILTER" value="CommandDetails" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="5850f8c7-64ec-4b4f-8460-a8d4bf7d59c4" name="Default" comment="" />
     <ignored path="ExpandableListViewExample.iws" />
@@ -74,66 +77,30 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="arrays.xml" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ExpandableListViewExample/src/main/res/values/arrays.xml">
+      <file leaf-file-name="CommandDetails.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ExpandableListViewExample/src/main/java/com/example/expandablelistviewexample/CommandDetails.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="50" column="29" selection-start="1011" selection-end="1011" vertical-scroll-proportion="0.84632766" vertical-offset="101" max-vertical-offset="986">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="umask.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ExpandableListViewExample/src/main/res/raw/umask.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="8" selection-start="211" selection-end="211" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="204">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="chgrp.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ExpandableListViewExample/src/main/res/raw/chgrp.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="241" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="204">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="chmod.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ExpandableListViewExample/src/main/res/raw/chmod.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="8" selection-start="542" selection-end="542" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="255">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="cd.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ExpandableListViewExample/src/main/res/raw/cd.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="69" selection-start="0" selection-end="367" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="238">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="cat.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ExpandableListViewExample/src/main/res/raw/cat.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="227" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="204">
+            <state line="100" column="0" selection-start="3072" selection-end="3072" vertical-scroll-proportion="0.0" vertical-offset="1394" max-vertical-offset="2142">
               <folding>
-                <marker date="1383543835924" expanded="true" signature="112:219" placeholder="..." />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ExpandListAdapter.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ExpandableListViewExample/src/main/java/com/example/expandablelistviewexample/ExpandListAdapter.java">
+      <file leaf-file-name="anyone.xml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ExpandableListViewExample/build/res/all/debug/raw/anyone.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="58" column="25" selection-start="2122" selection-end="2122" vertical-scroll-proportion="0.0" vertical-offset="986" max-vertical-offset="1853">
+            <state line="5" column="15" selection-start="221" selection-end="221" vertical-scroll-proportion="0.21628499" vertical-offset="0" max-vertical-offset="393">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MainActivity.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ExpandableListViewExample/src/main/java/com/example/expandablelistviewexample/MainActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="24" column="83" selection-start="766" selection-end="766" vertical-scroll-proportion="0.0" vertical-offset="408" max-vertical-offset="1751">
               <folding />
             </state>
           </provider>
@@ -498,8 +465,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/ExpandableListViewExample/src/main/res/raw/grep.xml" />
-        <option value="$PROJECT_DIR$/ExpandableListViewExample/src/main/res/raw/kill.xml" />
         <option value="$PROJECT_DIR$/ExpandableListViewExample/src/main/res/raw/less.xml" />
         <option value="$PROJECT_DIR$/ExpandableListViewExample/src/main/res/raw/pwd.xml" />
         <option value="$PROJECT_DIR$/ExpandableListViewExample/src/main/res/raw/pkill.xml" />
@@ -514,6 +479,8 @@
         <option value="$PROJECT_DIR$/ExpandableListViewExample/src/main/res/values/arrays.xml" />
         <option value="$PROJECT_DIR$/ExpandableListViewExample/src/main/res/raw/sux.xml" />
         <option value="$PROJECT_DIR$/ExpandableListViewExample/src/main/res/raw/umask.xml" />
+        <option value="$PROJECT_DIR$/ExpandableListViewExample/build.gradle" />
+        <option value="$PROJECT_DIR$/ExpandableListViewExample/src/main/java/com/example/expandablelistviewexample/CommandDetails.java" />
       </list>
     </option>
   </component>
@@ -690,6 +657,110 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ExpandableListViewExample" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ExpandableListViewExampleProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ExpandableListViewExample" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="build" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ExpandableListViewExample" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ExpandableListViewExampleProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ExpandableListViewExample" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="build" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ExpandableListViewExample" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ExpandableListViewExampleProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ExpandableListViewExample" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="build" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="all" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="debug" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ExpandableListViewExample" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ExpandableListViewExampleProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ExpandableListViewExample" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="build" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="all" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="debug" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="raw" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -710,8 +781,9 @@
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
-    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="emulator-5554" />
+    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="SH11YRX07289" />
     <property name="FullScreen" value="false" />
+    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_AVD" value="AVD-Nexus4" />
   </component>
   <component name="RunManager" selected="Android Application.ExpandableListViewExample">
     <configuration default="true" type="GroovyScriptRunConfiguration" factoryName="Groovy">
@@ -921,13 +993,14 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32930845" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32870865" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5136911" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5126235" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.5126235" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -938,10 +1011,9 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32959402" sideWeight="0.4862788" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32930845" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -952,59 +1024,12 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
+    <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="false" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ExpandableListViewExample/src/main/res/raw/pkill.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="64" selection-start="182" selection-end="182" vertical-scroll-proportion="0.07701019" vertical-offset="0" max-vertical-offset="883">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ExpandableListViewExample/src/main/res/raw/ps.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="100" selection-start="217" selection-end="217" vertical-scroll-proportion="0.07701019" vertical-offset="0" max-vertical-offset="883">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ExpandableListViewExample/src/main/res/raw/mv.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="81" selection-start="266" selection-end="266" vertical-scroll-proportion="0.09626274" vertical-offset="0" max-vertical-offset="883">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ExpandableListViewExample/src/main/res/raw/mkdir.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="65" selection-start="177" selection-end="177" vertical-scroll-proportion="0.07701019" vertical-offset="0" max-vertical-offset="883">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ExpandableListViewExample/src/main/java/com/example/expandablelistviewexample/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="83" selection-start="766" selection-end="766" vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="1751">
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#1299#1748#0" expanded="false" />
-            <element signature="e#1741#1742#0" expanded="false" />
-            <element signature="e#1878#1895#0" expanded="false" />
-            <element signature="e#1968#1985#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ExpandableListViewExample/src/main/java/com/example/expandablelistviewexample/CommandDetails.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="68" selection-start="1135" selection-end="1135" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="680">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ExpandableListViewExample/src/main/res/raw/rmdir.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="7" selection-start="202" selection-end="202" vertical-scroll-proportion="0.11551529" vertical-offset="0" max-vertical-offset="883">
@@ -1047,6 +1072,11 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/ExpandableListViewExample/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="23" selection-start="318" selection-end="318" vertical-scroll-proportion="0.5521368" vertical-offset="0" max-vertical-offset="585" />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ExpandableListViewExample/src/main/res/raw/chgrp.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="241" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="204">
@@ -1056,21 +1086,56 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ExpandableListViewExample/src/main/res/raw/umask.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="8" selection-start="211" selection-end="211" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="204">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ExpandableListViewExample/src/main/java/com/example/expandablelistviewexample/ExpandListAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="58" column="25" selection-start="2122" selection-end="2122" vertical-scroll-proportion="0.0" vertical-offset="986" max-vertical-offset="1853">
+        <state line="6" column="8" selection-start="211" selection-end="211" vertical-scroll-proportion="0.17435898" vertical-offset="0" max-vertical-offset="585">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ExpandableListViewExample/src/main/res/values/arrays.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="29" selection-start="1011" selection-end="1011" vertical-scroll-proportion="0.84632766" vertical-offset="101" max-vertical-offset="986">
+        <state line="11" column="0" selection-start="248" selection-end="248" vertical-scroll-proportion="0.31965813" vertical-offset="0" max-vertical-offset="986" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ExpandableListViewExample/src/main/res/raw/cd.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="69" selection-start="0" selection-end="367" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="238">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ExpandableListViewExample/src/main/res/raw/cat.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="227" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="204">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ExpandableListViewExample/src/main/java/com/example/expandablelistviewexample/ExpandListAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="58" column="25" selection-start="2122" selection-end="2122" vertical-scroll-proportion="-0.2034188" vertical-offset="986" max-vertical-offset="1734">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ExpandableListViewExample/src/main/java/com/example/expandablelistviewexample/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="83" selection-start="766" selection-end="766" vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="1751">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ExpandableListViewExample/src/main/java/com/example/expandablelistviewexample/CommandDetails.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="100" column="0" selection-start="3072" selection-end="3072" vertical-scroll-proportion="0.0" vertical-offset="1394" max-vertical-offset="2142">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ExpandableListViewExample/build/res/all/debug/raw/anyone.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="15" selection-start="221" selection-end="221" vertical-scroll-proportion="0.21628499" vertical-offset="0" max-vertical-offset="393">
           <folding />
         </state>
       </provider>
