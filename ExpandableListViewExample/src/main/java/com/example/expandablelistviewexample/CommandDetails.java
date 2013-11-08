@@ -24,7 +24,8 @@ public class CommandDetails extends Activity {
 
     private String description;
     private String command;
-    private Vector<String> examples;
+    private Vector<String> exampleCommands = new Vector<String>();
+    private Vector<String> exampleDetails = new Vector<String>();
 
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -81,32 +82,46 @@ public class CommandDetails extends Activity {
         int eventType = parser.getEventType();
         while (eventType != XmlPullParser.END_DOCUMENT)
         {
+            Log.i("CommandDetails","While Loop -4");
             if(eventType == XmlPullParser.START_DOCUMENT)
             {
-                Log.i("CommandDetails", "Start document");
             }
             else if(eventType == XmlPullParser.END_DOCUMENT)
             {
-                Log.i("CommandDetails", "End document");
             }
-            else if(eventType == XmlPullParser.START_TAG)
+            if(eventType == XmlPullParser.START_TAG)
             {
-                Log.i("CommandDetails", "Start tag: "+parser.getName());
-
                 String tag = parser.getName();
                 if (tag.equals("Description"))
                 {
                     description = parser.nextText();
+                    Log.i("CommandDetails", "Description: " + description);
                 }
 
+                else if (tag.equals("Examples"))
+                {
+                    Log.i("CommandDetails", "I am here -3");
+                    int count = parser.getAttributeCount();
+                    Log.i("CommandDetails", "Attr Count: " + count);
+                    Log.i("CommandDetails", "command syntax: " + parser.getAttributeValue(0));
+                    Log.i("CommandDetails", "command Details: " + parser.getAttributeValue(1));
+
+                    if (count > 0)
+                        exampleCommands.add(parser.getAttributeValue(0));
+
+                    if (count > 1)
+                        exampleDetails.add(parser.getAttributeValue(1));
+                }
+                else
+                {
+                    command = tag;
+                }
             }
             else if(eventType == XmlPullParser.END_TAG)
             {
-                Log.i("CommandDetails", "End tag: "+parser.getName());
             }
             else if(eventType == XmlPullParser.TEXT)
             {
-                Log.i("CommandDetials", "Text "+parser.getText());
             }
             try
             {
@@ -114,8 +129,19 @@ public class CommandDetails extends Activity {
             }
             catch (IOException ioEx)
             {
-
+                Log.i("CommandDetails", "I am here -2");
             }
+        }
+
+        Log.i("CommandDetails", "I am here -1");
+        Log.i("CommandDetails", "exampleCommands: " + exampleCommands.size());
+        Log.i("CommandDetails", "exampleCommands: " + exampleDetails.size());
+        for (int i = 0; i < exampleCommands.size(); i++) {
+            Log.i("CommandDetails", "Command: " + exampleCommands.get(i));
+        }
+
+        for (int i = 0; i < exampleDetails.size(); i++) {
+            Log.i("CommandDetails", "Details: " + exampleDetails.get(i));
         }
     }
 }
