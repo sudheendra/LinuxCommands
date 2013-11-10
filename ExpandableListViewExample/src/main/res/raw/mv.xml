@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <mv>
     <Description>move and rename files</Description>
-    <Examples>
-        <item command="mv file1 file2" details="Rename file1 to file2"/>
-        <item command="mv file1 dir1" details="moves file1 into directory dir1"/>
-    </Examples>
+    <Example>
+        <ExampleCommand>1. mv file1 file2</ExampleCommand>
+        <ExampleDetails>Rename file1 to file2</ExampleDetails>
+    </Example>
+    <Example>
+        <ExampleCommand>2. mv file1 dir1</ExampleCommand>
+        <ExampleDetails>moves file1 into directory dir1</ExampleDetails>
+    </Example>
 </mv>

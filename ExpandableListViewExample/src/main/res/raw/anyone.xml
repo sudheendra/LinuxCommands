@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <anyone>
     <Description>find your friends logged in</Description>
-    <Examples>
-        <item command="anyone" details="Add logins, 1 per line to your ~/.anyone"/>
-    </Examples>
+    <Example>
+        <ExampleCommand>1. anyone</ExampleCommand>
+        <ExampleDetails>Add logins, 1 per line to your ~/.anyone</ExampleDetails>
+    </Example>
 </anyone>

@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <cd>
     <Description>change working directory</Description>
-        <Examples command="cd .." details="change to parent directory"/>
-        <Examples command="cd ~/Public" details="change to /home/<USERNAME>/Public directory"/>
-        <Examples command="cd -" details="change to previous directory"/>
+    <Example>
+        <ExampleCommand>1. cd..</ExampleCommand>
+        <ExampleDetails>change to parent directory</ExampleDetails>
+    </Example>
+    <Example>
+        <ExampleCommand>2. cd ~/Public</ExampleCommand>
+        <ExampleDetails>change to /home/USERNAME/Public directory</ExampleDetails>
+    </Example>
+    <Example>
+        <ExampleCommand>3. cd -</ExampleCommand>
+        <ExampleDetails>change to previous directory</ExampleDetails>
+    </Example>
 </cd>

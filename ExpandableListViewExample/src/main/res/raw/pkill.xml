@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <pkill>
     <Description>kills a process by name </Description>
-    <Examples>
-        <item command="pkill <name>" details="Kill all processes with <name> in their name"/>
-        <item command="pkill -9 <name>" details="For REALLY stubborn processes"/>
-    </Examples>
+    <Example>
+        <ExampleCommand>1. pkill NAME</ExampleCommand>
+        <ExampleDetails>Kill all processes with NAME in their name</ExampleDetails>
+    </Example>
+    <Example>
+        <ExampleCommand>2. pkill -9 NAME</ExampleCommand>
+        <ExampleDetails>For REALLY stubborn processes</ExampleDetails>
+    </Example>
 </pkill>

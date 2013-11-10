@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <cat>
     <Description>print a file to screen</Description>
-    <Examples>
-        <item command="cat file1.txt" details="prints content in file1.txt on to screen"/>
-    </Examples>
+    <Example>
+        <ExampleCommand>1. cat file1.txt</ExampleCommand>
+        <ExampleDetails>prints content in file1.txt on to screen</ExampleDetails>
+    </Example>
 </cat>

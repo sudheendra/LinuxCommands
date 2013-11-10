@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <mkdir>
     <Description>Create a directory</Description>
-    <Examples>
-        <item command="mkdir dir1" details="Create directory dir1"/>
-    </Examples>
+    <Example>
+        <ExampleCommand>1. mkdir dir1</ExampleCommand>
+        <ExampleDetails>Create directory dir1</ExampleDetails>
+    </Example>
 </mkdir>

@@ -1,9 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <grep>
     <Description>Search within a file</Description>
-    <Examples>
-        <item command="grep CONTENT file1 file2" details="Search for 'CONTENT' in 'file1' and 'file2'"/>
-        <item command="grep -i CONTENT file file2" details="Case-Insenstive search for 'CONTENT in 'file1' file2'"/>
-        <item command="grep -r CONTENT dir1" details="Search all files of dir1 (recursively)"/>
-    </Examples>
+    <Example>
+        <ExampleCommand>1. grep CONTENT file1 file2</ExampleCommand>
+        <ExampleDetails>Search for 'CONTENT' in 'file1' and 'file2'</ExampleDetails>
+    </Example>
+    <Example>
+        <ExampleCommand>2. grep -i CONTENT file file2</ExampleCommand>
+        <ExampleDetails>Case-Insenstive search for 'CONTENT in 'file1' file2'</ExampleDetails>
+    </Example>
+    <Example>
+        <ExampleCommand>3. grep -r CONTENT dir1</ExampleCommand>
+        <ExampleDetails>Search all files of dir1 (recursively)</ExampleDetails>
+    </Example>
 </grep>

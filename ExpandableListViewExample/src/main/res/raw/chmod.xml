@@ -1,10 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <chmod>
     <Description>Change the user who owns the file</Description>
-    <Examples>
-        <item command="chmod MODE file" details="change mode of the file to MODE"/>
-        <item command="chmod u+x file" details="change mode of file to executable for this user"/>
-        <item command="chmod u+r file" details="change mode of file to readonly for this user"/>
-        <item command="chmod 777 file" details="change mode of file to read write and execute for all users"/>
-    </Examples>
+    <Example>
+        <ExampleCommand>1. chmod MODE file</ExampleCommand>
+        <ExampleDetails>change mode of the file to MODE</ExampleDetails>
+    </Example>
+    <Example>
+        <ExampleCommand>2. chmod u+x file</ExampleCommand>
+        <ExampleDetails>change mode of file to executable for this user</ExampleDetails>
+    </Example>
+    <Example>
+        <ExampleCommand>3. chmod u+r file</ExampleCommand>
+        <ExampleDetails>change mode of file to readonly for this user</ExampleDetails>
+    </Example>
+    <Example>
+        <ExampleCommand>4. chmod 777 file</ExampleCommand>
+        <ExampleDetails>change mode of file to read write and execute for all users</ExampleDetails>
+    </Example>
+
 </chmod>

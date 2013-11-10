@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <floor>
     <Description>see who's logged in where </Description>
-    <Examples>
-        <item command="floor ta" details="print a map of who's logged into TA areas"/>
-    </Examples>
+    <Example>
+        <ExampleCommand>1. floor ta</ExampleCommand>
+        <ExampleDetails>print a map of who's logged into TA areas</ExampleDetails>
+    </Example>
 </floor>

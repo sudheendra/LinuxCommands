@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <cp>
     <Description>copy files</Description>
-    <Examples>
-        <item command="cp file1 file2" details="Copies content from file1 to file2"/>
-        <item command="cp -r dir1 dir2" details="Copies everything from Dir1 to Dir2"/>
-    </Examples>
+    <Example>
+        <ExampleCommand>1. cp file1 file2</ExampleCommand>
+        <ExampleDetails>Copies content from file1 to file2</ExampleDetails>
+    </Example>
+    <Example>
+        <ExampleCommand>2. cp -r dir1 dir2</ExampleCommand>
+        <ExampleDetails>Copies everything from Dir1 to Dir2</ExampleDetails>
+    </Example>
+
 </cp>

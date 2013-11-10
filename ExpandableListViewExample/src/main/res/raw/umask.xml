@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <umask>
     <Description>change your umask</Description>
-    <Examples>
-        <item command="umask MODE" details="change default umask to MODE"/>
-    </Examples>
+    <Example>
+        <ExampleCommand>1. umask MODE</ExampleCommand>
+        <ExampleDetails>default umask to MODE</ExampleDetails>
+    </Example>
 </umask>

@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <chgrp>
     <Description>Reads a part file and prints it to the screen</Description>
-    <Examples>
-        <item command="less file1.txt" details="Prints part of file1.txt to screen, allows scrolling using space bar"/>
-    </Examples>
+    <Example>
+        <ExampleCommand>1. less file1.txt</ExampleCommand>
+        <ExampleDetails>Prints part of file1.txt to screen, allows scrolling using space bar</ExampleDetails>
+    </Example>
 </chgrp>

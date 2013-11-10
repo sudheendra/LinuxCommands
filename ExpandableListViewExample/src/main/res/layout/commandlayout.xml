@@ -1,20 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
-
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent">
 
     <LinearLayout
         android:layout_height="wrap_content"
-        android:layout_width="wrap_content"
-        android:orientation="horizontal">
+        android:layout_width="fill_parent"
+        android:orientation="horizontal"
+        android:background="@drawable/backgroundrectshape"
+        style="@style/TextAppearance.AppCompat.SearchResult.Title">
 
         <TextView
             android:layout_height="wrap_content"
             android:layout_width="wrap_content"
+            android:paddingLeft="4dp"
             android:text="Command: "
             android:textStyle="bold"
-            android:textSize="20dp"/>
+            android:textSize="20dp" />
 
         <TextView
             android:id="@+id/CommandTitle"
@@ -25,42 +30,66 @@
 
     </LinearLayout>
 
+    <View android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:background="#FFFFFF" />
+
     <LinearLayout
         android:layout_height="wrap_content"
-        android:layout_width="wrap_content"
+        android:layout_width="fill_parent"
+        android:background="@drawable/backgroundrectshape"
         android:orientation="vertical">
 
         <TextView
             android:layout_height="wrap_content"
             android:layout_width="wrap_content"
+            android:paddingLeft="4dp"
             android:text="Description:"
             android:textSize="20dp"
-            android:textStyle="bold"/>
+            android:textStyle="bold" />
+
+        <View android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#FF007CCD" />
 
         <TextView
             android:id="@+id/CommandDescription"
             android:layout_height="wrap_content"
+            android:paddingLeft="4dp"
+            android:textSize="20dp"
             android:layout_width="wrap_content" />
 
     </LinearLayout>
+    <View android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:background="#FFFFFF" />
 
     <LinearLayout
         android:layout_height="wrap_content"
-        android:layout_width="wrap_content"
+        android:layout_width="fill_parent"
+        android:background="@drawable/backgroundrectshape"
         android:orientation="vertical">
 
         <TextView
             android:layout_height="wrap_content"
             android:layout_width="wrap_content"
+            android:paddingLeft="4dp"
             android:textStyle="bold"
             android:text="Examples:"
-            android:textSize="20dp"/>
+            android:textSize="20dp" />
+
+        <View android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#FF007CCD" />
 
         <TextView
             android:id="@+id/Examples"
+            android:textSize="20dp"
+            android:paddingLeft="4dp"
             android:layout_height="wrap_content"
             android:layout_width="wrap_content" />
 
     </LinearLayout>
 
 </LinearLayout>
+</ScrollView>

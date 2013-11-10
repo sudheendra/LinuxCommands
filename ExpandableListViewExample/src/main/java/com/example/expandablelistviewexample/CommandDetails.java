@@ -5,6 +5,8 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.util.Xml;
+import android.widget.EditText;
+import android.widget.TextView;
 
 import org.xmlpull.v1.XmlPullParser;
 import org.xmlpull.v1.XmlPullParserException;
@@ -24,12 +26,21 @@ public class CommandDetails extends Activity {
 
     private String description;
     private String command;
+    private String example = "";
     private Vector<String> exampleCommands = new Vector<String>();
     private Vector<String> exampleDetails = new Vector<String>();
+
+    TextView commandDescription;
+    TextView commandExample;
+    TextView commandTitle;
 
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.commandlayout);
+
+        commandDescription = (TextView) findViewById(R.id.CommandDescription);
+        commandExample = (TextView) findViewById(R.id.Examples);
+        commandTitle = (TextView) findViewById(R.id.CommandTitle);
 
         Intent intent = getIntent();
         GroupPos = intent.getIntExtra(MainActivity.EXTRA_MESSAGE_1, 0);
@@ -40,10 +51,6 @@ public class CommandDetails extends Activity {
 
     private void LoadXmlFile(int groupId, int childId)
     {
-        Log.i("CommandDetails", "LoadXmlFile");
-        Log.i("CommandDetails", "GroupID: " + groupId);
-        Log.i("CommandDetails", "ChildID: " + childId);
-
         if (MainActivity.xmlMap.containsKey(groupId))
         {
             String[] xmlFileList = MainActivity.xmlMap.get(groupId);
@@ -80,9 +87,12 @@ public class CommandDetails extends Activity {
     private void ParseXml(XmlPullParser parser) throws IOException, XmlPullParserException
     {
         int eventType = parser.getEventType();
+        Integer j =  new Integer(0);
         while (eventType != XmlPullParser.END_DOCUMENT)
         {
-            Log.i("CommandDetails","While Loop -4");
+            Log.i("CommandDetails", "eventType: " + eventType);
+            Log.i("CommandDetails","While Loop: "+ j.toString());
+            j++;
             if(eventType == XmlPullParser.START_DOCUMENT)
             {
             }
@@ -92,25 +102,23 @@ public class CommandDetails extends Activity {
             if(eventType == XmlPullParser.START_TAG)
             {
                 String tag = parser.getName();
+                Log.i("CommandDetails:", parser.getName());
                 if (tag.equals("Description"))
                 {
                     description = parser.nextText();
                     Log.i("CommandDetails", "Description: " + description);
                 }
 
-                else if (tag.equals("Examples"))
+                else if (tag.equals("Example"))
                 {
-                    Log.i("CommandDetails", "I am here -3");
-                    int count = parser.getAttributeCount();
-                    Log.i("CommandDetails", "Attr Count: " + count);
-                    Log.i("CommandDetails", "command syntax: " + parser.getAttributeValue(0));
-                    Log.i("CommandDetails", "command Details: " + parser.getAttributeValue(1));
-
-                    if (count > 0)
-                        exampleCommands.add(parser.getAttributeValue(0));
-
-                    if (count > 1)
-                        exampleDetails.add(parser.getAttributeValue(1));
+                }
+                else if(tag.equals("ExampleCommand"))
+                {
+                    exampleCommands.add(parser.nextText());
+                }
+                else if (tag.equals("ExampleDetails"))
+                {
+                    exampleDetails.add(parser.nextText());
                 }
                 else
                 {
@@ -129,19 +137,16 @@ public class CommandDetails extends Activity {
             }
             catch (IOException ioEx)
             {
-                Log.i("CommandDetails", "I am here -2");
+                break;
             }
         }
 
-        Log.i("CommandDetails", "I am here -1");
-        Log.i("CommandDetails", "exampleCommands: " + exampleCommands.size());
-        Log.i("CommandDetails", "exampleCommands: " + exampleDetails.size());
+        commandTitle.setText(command);
+        commandDescription.setText(description);
         for (int i = 0; i < exampleCommands.size(); i++) {
-            Log.i("CommandDetails", "Command: " + exampleCommands.get(i));
-        }
 
-        for (int i = 0; i < exampleDetails.size(); i++) {
-            Log.i("CommandDetails", "Details: " + exampleDetails.get(i));
+            example += exampleCommands.get(i) + " :    " + exampleDetails.get(i) + "\n";
         }
+        commandExample.setText(example);
     }
 }

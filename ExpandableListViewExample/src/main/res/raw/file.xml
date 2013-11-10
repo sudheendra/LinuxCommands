@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <file>
     <Description>print the type of file</Description>
-    <Examples>
-        <item command="file example.txt" details="Prints the file type of example.txt"/>
-    </Examples>
+    <Example>
+        <ExampleCommand>1. file example.txt</ExampleCommand>
+        <ExampleDetails>Prints the file type of example.txt</ExampleDetails>
+    </Example>
 </file>

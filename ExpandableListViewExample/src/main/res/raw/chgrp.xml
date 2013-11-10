@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <chgrp>
     <Description>Change the group which owns the file</Description>
-    <Examples>
-        <item command="chgrp GROUP file" details="change group of the file to GROUP"/>
-    </Examples>
+    <Example>
+        <ExampleCommand>1. GROUP file</ExampleCommand>
+        <ExampleDetails>change group of the file to GROUP</ExampleDetails>
+    </Example>
 </chgrp>

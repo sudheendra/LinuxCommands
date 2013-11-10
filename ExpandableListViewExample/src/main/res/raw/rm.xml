@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rm>
     <Description>delete a file</Description>
-    <Examples>
-        <item command="rm file1" details="delete file1"/>
-        <item command="rm dir1" details="delete dir1 and everything"/>
-    </Examples>
+    <Example>
+        <ExampleCommand>1. rm file1</ExampleCommand>
+        <ExampleDetails>delete file1</ExampleDetails>
+    </Example>
+    <Example>
+        <ExampleCommand>2. dir1</ExampleCommand>
+        <ExampleDetails>delete dir1 and everything</ExampleDetails>
+    </Example>
 </rm>

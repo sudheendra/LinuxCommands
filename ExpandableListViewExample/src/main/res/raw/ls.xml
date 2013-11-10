@@ -1,10 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ls>
     <Description>list the files in directory</Description>
-    <Examples>
-        <item command="ls" details="list files in current directory"/>
-        <item command="ls dir1" details="list files in dir1"/>
-        <item command="ls -l dir1" details="show details for each file in dir1"/>
-        <item command="ls -a dir1" details="show all files(even hidden files)"/>
-    </Examples>
+    <Example>
+        <ExampleCommand>1. ls</ExampleCommand>
+        <ExampleDetails>list files in current directory</ExampleDetails>
+    </Example>
+    <Example>
+        <ExampleCommand>2. ls dir1</ExampleCommand>
+        <ExampleDetails>list files in dir1</ExampleDetails>
+    </Example>
+    <Example>
+        <ExampleCommand>3. ls -l dir1</ExampleCommand>
+        <ExampleDetails>show details for each file in dir1</ExampleDetails>
+    </Example>
+    <Example>
+        <ExampleCommand>4. ls -a dir1</ExampleCommand>
+        <ExampleDetails>show all files(even hidden files)</ExampleDetails>
+    </Example>
 </ls>

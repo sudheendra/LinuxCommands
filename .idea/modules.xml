@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/ExpandableListViewExample/ExpandableListViewExample.iml" filepath="$PROJECT_DIR$/ExpandableListViewExample/ExpandableListViewExample.iml" />
       <module fileurl="file://$PROJECT_DIR$/ExpandableListViewExampleProject.iml" filepath="$PROJECT_DIR$/ExpandableListViewExampleProject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LinuxCommands.iml" filepath="$PROJECT_DIR$/LinuxCommands.iml" />
     </modules>
   </component>
 </project>
